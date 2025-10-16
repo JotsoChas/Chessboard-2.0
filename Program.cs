@@ -141,8 +141,6 @@ namespace Chessboard
             return null;
         }
 
-
-
         // Draws the board
         static void RenderBoard(int n)
         {
@@ -164,6 +162,44 @@ namespace Chessboard
                 // Go to next line after each row
                 Console.WriteLine();
             }
+
+            
+//AI tool: ChatGPT
+//Questions asked:
+//How to decide what variables are needed for rows and columns.
+//How to validate user input (3–50).
+//How to make sure the input is a valid number between 3 and 50.
+//Where to put Console.OutputEncoding = System.Text.Encoding.Unicode;
+//How to handle errors if the user types letters instead of numbers.
+//How to let the user type number words like "twentyfive". 
+//Where to place the ParseNumber() method.
+//How to create the loops that draw the board.
+//How to switch between black and white squares using logic like (r + c) % 2.
+//How to use Unicode symbols to make the chessboard look nicer in the console.
+//Why the rows/columns caused an error.
+//How "continue" works in loops.
+//How to clear the screen and show a title before printing the board.
+//How to ask the user if they want to generate a new board or exit.
+//How to remove extra space after the title.
+//How to restart the program with "Would you like to make a new one?".
+//How to structure the code with small methods (for example RenderBoard() or ParseNumber())."
+
+//How I used the answers
+//I used the AIs answers as guidance to understand how to build the program step by step.
+//It helped me see the logic behind loops, input validation, and how to draw the chessboard nicely.
+//Then I rewrote the code myself and tested different solutions until I fully understood how each part worked.
+
+//What changes I made compared to the AI´s suggestions and why
+//I simplified some parts of the code to make it easier to read and better suited for my level.
+//For example, I created my own methods for certain tasks and changed the text messages shown to the user.
+//I also experimented with different symbols and numbers and adjusted the console layout to make the output clearer.
+//Was it too much code for such a simple task as creating a chessboard?
+//Maybe some parts. Like translating words of numbers ex "nine", were a bit unnecessary.
+//But it works and in some situations or for some users typing words might actually be the only way to give input. 
+//If I was able to convert a numeric string into an integer, then why not extend it to all kinds of strings?
+ 
+
+
         }
     }
 }
