@@ -1,6 +1,4 @@
-|==================================|
 |======= CHESSBOARD 2.0 ===========|
-|==================================|
 
 #Description:
 -This is a simple program that runs in the console.
@@ -11,7 +9,7 @@
 #Features:
 -I made it able to convert all types of inputs into a integer. 
 -Both numbers and words of numbers works properly.
--It doesn´t matter if they are uppercase or lowecase, contains " ", "-" or are empty. 
+-It doesn´t matter if they are uppercase or lowercase, contains " ", "-" or are empty. 
 
 
 #How to use:
