@@ -163,7 +163,11 @@ namespace Chessboard
                 Console.WriteLine();
             }
 
-            
+        }
+    }
+}
+
+
 //AI tool: ChatGPT
 //Questions asked:
 //How to decide what variables are needed for rows and columns.
@@ -197,9 +201,5 @@ namespace Chessboard
 //Maybe some parts. Like translating words of numbers ex "nine", were a bit unnecessary.
 //But it works and in some situations or for some users typing words might actually be the only way to give input. 
 //If I was able to convert a numeric string into an integer, then why not extend it to all kinds of strings?
- 
 
 
-        }
-    }
-}
